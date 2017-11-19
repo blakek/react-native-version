@@ -121,6 +121,7 @@ version({
 });
 ```
 
+<!-- START api -->
 ### Functions
 
 <dl>
@@ -145,14 +146,14 @@ version({
 
 <a name="getDefaults"></a>
 
-#### getDefaults() ⇒ <code>Object</code>
+### getDefaults() ⇒ <code>Object</code>
 Returns default values for some options, namely android/ios file/folder paths
 
 **Kind**: global function  
 **Returns**: <code>Object</code> - Defaults  
 <a name="getPlistFilenames"></a>
 
-#### getPlistFilenames(xcode) ⇒ <code>Array</code>
+### getPlistFilenames(xcode) ⇒ <code>Array</code>
 Returns Info.plist filenames
 
 **Kind**: global function  
@@ -164,7 +165,7 @@ Returns Info.plist filenames
 
 <a name="version"></a>
 
-#### version(program, projectPath) ⇒ <code>Promise.&lt;(string\|Error)&gt;</code>
+### version(program, projectPath) ⇒ <code>Promise.&lt;(string\|Error)&gt;</code>
 Versions your app
 
 **Kind**: global function  
@@ -177,7 +178,7 @@ Versions your app
 
 <a name="Promise"></a>
 
-#### Promise
+### Promise
 Custom type definition for Promises
 
 **Kind**: global typedef  
@@ -187,6 +188,9 @@ Custom type definition for Promises
 | --- | --- | --- |
 | result | <code>\*</code> | See the implementing function for the resolve type and description |
 | result | <code>Error</code> | Rejection error object |
+
+
+<!-- END api -->
 
 ## See also
 
